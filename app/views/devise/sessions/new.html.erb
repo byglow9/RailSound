@@ -4,20 +4,9 @@
 
     <div class="w-3/4 mx-auto">
       <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-        
-        <div class="field mb-4">
-          <%= f.label :username, class: "mb-2 text-lg" %><br />
-          <%= f.text_field :username, autocomplete: "username", class: "w-full rounded-lg bg-gray-50" %>
-        </div>
-
         <div class="field mb-4">
           <%= f.label :email, class: "mb-2 text-lg" %><br />
           <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "w-full rounded-lg bg-gray-50" %>
-        </div>
-
-        <div class="field mb-4">
-          <%= f.label :password, class: "mb-2 text-lg" %><br />
-          <%= f.password_field :password, autocomplete: "current-password", class: "w-full rounded-lg bg-gray-50" %>
         </div>
 
         <div class="field mb-4">
