@@ -1,29 +1,51 @@
 # RailSound
 
-    Esse projeto é uma aplicação Rails projetada para a postagem de músicas. Qualquer um pode fazer o upload de uma capa, arquivo de som, nomear a musica e fornecer uma descrição
+Esse projeto é uma aplicação Rails projetada para a postagem de músicas. Qualquer um pode fazer o upload de uma capa, arquivo de som, nomear a música e fornecer uma descrição.
 
-    Ruby versão: 3.2.2
-    * Rails versão: 7.1.3.4
-    * Banco de Dados: Postgresql
+## Tecnologias Utilizadas
 
-    #Configuração
-    Para configurar o sistema no seu computador você precisa do ruby e rails configurado no seu computador.
+- **Ruby versão:** 3.2.2
+- **Rails versão:** 7.1.3.4
+- **Banco de Dados:** PostgreSQL
 
-    Siga os passos abaixo para configurar o sistema no seu computador.
-    1. Clone o repositório `git clone https://github.com/byglow9/RailSound.git
+## Configuração
 
-    cd RailSound`
-    2. Instalar todas as dependências do rails (gems): `bundle install`
-    3. Configure o arquivo `database.yml` que está na pasta config com seu usuário e senha.
-    4. Com o banco de dados configurado gere os bancos: `rails db:create`
-    5. Agora execute as migrações: `rails db:migrate`
-    6. Instale Action Text e Active Storage:
-    `rails action_text:install
-     rails active_storage:install
-     rails db:migrat`
-    7. Fim
+Para configurar o sistema no seu computador, você precisa ter o Ruby e Rails configurados.
 
-    # Iniciando o projeto
-    Agora com tudo configurado, basta executa `bin/dev`
+Siga os passos abaixo para configurar o sistema no seu computador:
 
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/byglow9/RailSound.git
+    cd RailSound
+    ```
 
+2. Instale todas as dependências do Rails (gems):
+    ```sh
+    bundle install
+    ```
+
+3. Configure o arquivo `database.yml` que está na pasta `config` com seu usuário e senha.
+
+4. Com o banco de dados configurado, crie o banco de dados:
+    ```sh
+    rails db:create
+    ```
+
+5. Execute as migrações:
+    ```sh
+    rails db:migrate
+    ```
+
+6. Instale Action Text e Active Storage:
+    ```sh
+    rails action_text:install
+    rails active_storage:install
+    rails db:migrate
+    ```
+
+## Iniciando o Projeto
+
+Agora com tudo configurado, basta executar:
+```sh
+bin/dev
