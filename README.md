@@ -2,6 +2,16 @@
 
 This project is a Rails application designed for posting music. Anyone can upload a cover, audio file, name the song, and provide a description.
 
+
+https://github.com/byglow9/RailSound/assets/123702737/869b3709-14af-4489-9b4e-b210c4908f24
+
+
+https://github.com/byglow9/RailSound/assets/123702737/869b3709-14af-4489-9b4e-b210c4908f24
+
+
+https://github.com/byglow9/RailSound/assets/123702737/869b3709-14af-4489-9b4e-b210c4908f24
+
+
 ## Technologies Used
 
 - **Ruby version:** 3.2.2
