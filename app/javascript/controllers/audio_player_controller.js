@@ -9,7 +9,7 @@ export default class extends Controller {
   connect() {
     this.wavesurfer = WaveSurfer.create({
       container: this.previewTarget,
-      waveColor: "#ff8000",
+      waveColor: "#a30000",
       progressColor: "#383351",
       url: this.urlValue,
     });
